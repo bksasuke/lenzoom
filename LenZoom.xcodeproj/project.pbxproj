@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2645536E1BDF8A1C00C0EC8B /* Tap1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2645536C1BDF8A1C00C0EC8B /* Tap1.xib */; settings = {ASSET_TAGS = (); }; };
+		264553701BDF98BB00C0EC8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2645536F1BDF98BB00C0EC8B /* CoreGraphics.framework */; };
+		5E07714D1B8C5919000D7997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E07714C1B8C5919000D7997 /* main.m */; };
+		5E0771581B8C5919000D7997 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0771571B8C5919000D7997 /* Images.xcassets */; };
+		5E07715B1B8C5919000D7997 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E0771591B8C5919000D7997 /* LaunchScreen.xib */; };
+		5E0771771B8C5A5E000D7997 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0771741B8C5A5E000D7997 /* AppDelegate.m */; };
+		5E0771781B8C5A5E000D7997 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0771751B8C5A5E000D7997 /* BootLogic.m */; };
+		5E0771791B8C5A5E000D7997 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0771761B8C5A5E000D7997 /* MainScreen.m */; };
+		5E07717D1B8C63F5000D7997 /* Tap1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E07717C1B8C63F5000D7997 /* Tap1.m */; };
+		5E0771871B8C67A8000D7997 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0771861B8C67A8000D7997 /* AVFoundation.framework */; };
+		5E0771AE1B8C7BBD000D7997 /* playboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E0771AD1B8C7BBD000D7997 /* playboy.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2645536A1BDF8A1C00C0EC8B /* Tap1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tap1.h; sourceTree = "<group>"; };
+		2645536C1BDF8A1C00C0EC8B /* Tap1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tap1.xib; sourceTree = "<group>"; };
+		2645536F1BDF98BB00C0EC8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E0771471B8C5919000D7997 /* LenZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LenZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E07714B1B8C5919000D7997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E07714C1B8C5919000D7997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E0771571B8C5919000D7997 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E07715A1B8C5919000D7997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5E0771711B8C5A5E000D7997 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E0771721B8C5A5E000D7997 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		5E0771731B8C5A5E000D7997 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		5E0771741B8C5A5E000D7997 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E0771751B8C5A5E000D7997 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		5E0771761B8C5A5E000D7997 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		5E07717C1B8C63F5000D7997 /* Tap1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tap1.m; sourceTree = "<group>"; };
+		5E0771861B8C67A8000D7997 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5E0771AD1B8C7BBD000D7997 /* playboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playboy.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E0771441B8C5919000D7997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264553701BDF98BB00C0EC8B /* CoreGraphics.framework in Frameworks */,
+				5E0771871B8C67A8000D7997 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E07713E1B8C5919000D7997 = {
+			isa = PBXGroup;
+			children = (
+				2645536F1BDF98BB00C0EC8B /* CoreGraphics.framework */,
+				5E0771491B8C5919000D7997 /* GestureRecognizer */,
+				5E0771861B8C67A8000D7997 /* AVFoundation.framework */,
+				5E0771481B8C5919000D7997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E0771481B8C5919000D7997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E0771471B8C5919000D7997 /* LenZoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0771491B8C5919000D7997 /* GestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				5E0771701B8C5933000D7997 /* Core */,
+				5E07717A1B8C63D1000D7997 /* Basic */,
+				5E0771571B8C5919000D7997 /* Images.xcassets */,
+				5E0771591B8C5919000D7997 /* LaunchScreen.xib */,
+				5E07714A1B8C5919000D7997 /* Supporting Files */,
+			);
+			path = GestureRecognizer;
+			sourceTree = "<group>";
+		};
+		5E07714A1B8C5919000D7997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E07714B1B8C5919000D7997 /* Info.plist */,
+				5E07714C1B8C5919000D7997 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E0771701B8C5933000D7997 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5E0771711B8C5A5E000D7997 /* AppDelegate.h */,
+				5E0771741B8C5A5E000D7997 /* AppDelegate.m */,
+				5E0771721B8C5A5E000D7997 /* BootLogic.h */,
+				5E0771751B8C5A5E000D7997 /* BootLogic.m */,
+				5E0771731B8C5A5E000D7997 /* MainScreen.h */,
+				5E0771761B8C5A5E000D7997 /* MainScreen.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5E07717A1B8C63D1000D7997 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				5E0771AD1B8C7BBD000D7997 /* playboy.jpg */,
+				5E07717C1B8C63F5000D7997 /* Tap1.m */,
+				2645536A1BDF8A1C00C0EC8B /* Tap1.h */,
+				2645536C1BDF8A1C00C0EC8B /* Tap1.xib */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E0771461B8C5919000D7997 /* LenZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E07716A1B8C5919000D7997 /* Build configuration list for PBXNativeTarget "LenZoom" */;
+			buildPhases = (
+				5E0771431B8C5919000D7997 /* Sources */,
+				5E0771441B8C5919000D7997 /* Frameworks */,
+				5E0771451B8C5919000D7997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LenZoom;
+			productName = GestureRecognizer;
+			productReference = 5E0771471B8C5919000D7997 /* LenZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E07713F1B8C5919000D7997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Cuong Trinh";
+				TargetAttributes = {
+					5E0771461B8C5919000D7997 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 5E0771421B8C5919000D7997 /* Build configuration list for PBXProject "LenZoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E07713E1B8C5919000D7997;
+			productRefGroup = 5E0771481B8C5919000D7997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E0771461B8C5919000D7997 /* LenZoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E0771451B8C5919000D7997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0771AE1B8C7BBD000D7997 /* playboy.jpg in Resources */,
+				2645536E1BDF8A1C00C0EC8B /* Tap1.xib in Resources */,
+				5E07715B1B8C5919000D7997 /* LaunchScreen.xib in Resources */,
+				5E0771581B8C5919000D7997 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E0771431B8C5919000D7997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0771791B8C5A5E000D7997 /* MainScreen.m in Sources */,
+				5E0771781B8C5A5E000D7997 /* BootLogic.m in Sources */,
+				5E07717D1B8C63F5000D7997 /* Tap1.m in Sources */,
+				5E0771771B8C5A5E000D7997 /* AppDelegate.m in Sources */,
+				5E07714D1B8C5919000D7997 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E0771591B8C5919000D7997 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E07715A1B8C5919000D7997 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E0771681B8C5919000D7997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E0771691B8C5919000D7997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E07716B1B8C5919000D7997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = LenZoom;
+			};
+			name = Debug;
+		};
+		5E07716C1B8C5919000D7997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = LenZoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E0771421B8C5919000D7997 /* Build configuration list for PBXProject "LenZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0771681B8C5919000D7997 /* Debug */,
+				5E0771691B8C5919000D7997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E07716A1B8C5919000D7997 /* Build configuration list for PBXNativeTarget "LenZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E07716B1B8C5919000D7997 /* Debug */,
+				5E07716C1B8C5919000D7997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E07713F1B8C5919000D7997 /* Project object */;
+}
